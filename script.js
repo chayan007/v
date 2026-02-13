@@ -1,5 +1,5 @@
 /**
- * Valentine's Day — Rupsa Bhattacharya
+ * Valentine's Day — Rupsa Bhattacharjee
  * Bold, cinematic, highly animated single-page site
  * Plain HTML, CSS, JS — no frameworks
  */
