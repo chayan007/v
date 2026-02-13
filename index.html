@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupsa Bhattacharya — The Only Therapy I'll Ever Need</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Cursor glow trail -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Mute toggle -->
+  <button class="mute-btn" id="muteBtn" aria-label="Toggle sound">🔊</button>
+
+  <!-- Easter egg secret message -->
+  <div class="secret-message" id="secretMessage">You found the secret. Rupsa would be proud. ♥</div>
+
+  <!-- 1. HERO SECTION -->
+  <section class="hero fullscreen" id="hero">
+    <div class="hero-bg-shift" aria-hidden="true"></div>
+    <div class="smoke-bg" aria-hidden="true"></div>
+    <div class="smoke-bg smoke-bg-2" aria-hidden="true"></div>
+    <div class="particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="hero-line hero-line-first">She Heals Minds.</span>
+        <span class="hero-line reveal-text" id="heroReveal">But She Completely Hijacked Mine.</span>
+      </h1>
+      <p class="hero-subtext name-shimmer hero-subtext-reveal" data-name="Rupsa Bhattacharya">Rupsa Bhattacharya — The Only Therapy I'll Ever Need.</p>
+      <button class="btn-dare magnetic-btn btn-dare-pulse" id="enterBtn">Enter If You Dare</button>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-image-glow" aria-hidden="true"></div>
+      <img src="assets/rupsa-hero.png" alt="Rupsa Bhattacharya" class="hero-image">
+    </div>
+  </section>
+
+  <!-- 2. WHO YOU ARE -->
+  <section class="section who-you-are" id="whoYouAre">
+    <div class="parallax-bg" data-speed="0.3"></div>
+    <div class="spotlight" aria-hidden="true"></div>
+    <div class="who-glow-orb who-glow-orb-1" aria-hidden="true"></div>
+    <div class="who-glow-orb who-glow-orb-2" aria-hidden="true"></div>
+    <div class="section-inner">
+      <h2 class="power-title">
+        <span class="power-word" data-delay="0">Psychologist.</span>
+        <span class="power-word" data-delay="1">Goddess.</span>
+        <span class="power-word" data-delay="2">Chaos in Heels.</span>
+      </h2>
+      <div class="who-quips">
+        <p class="who-quip" data-quip="0">You don't need a diagnosis to know you're the whole treatment.</p>
+        <p class="who-quip" data-quip="1">My only disorder? Thinking about you 24/7.</p>
+        <p class="who-quip" data-quip="2">You're the kind of chaos I signed up for.</p>
+        <p class="who-quip" data-quip="3">Therapy never looked this good.</p>
+        <p class="who-quip" data-quip="4">You fixed my head. Now my heart's a mess. Thanks.</p>
+      </div>
+      <div class="who-image">
+        <img src="assets/rupsa-2.png" alt="Rupsa Bhattacharya">
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. WHY YOU'RE DANGEROUS -->
+  <section class="section why-dangerous" id="whyDangerous">
+    <div class="section-inner">
+      <h2 class="section-heading scroll-reveal">Why You're Dangerous</h2>
+      <div class="cards-grid">
+        <div class="flip-card scroll-reveal">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <p>Your intelligence is lethal.</p>
+            </div>
+            <div class="flip-back">
+              <p>And I'm willingly under arrest.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card scroll-reveal">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <p>Your confidence is illegal.</p>
+            </div>
+            <div class="flip-back">
+              <p>I'd serve the sentence.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card scroll-reveal">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <p>Your smile should come with a warning.</p>
+            </div>
+            <div class="flip-back">
+              <p>Caution: addictive.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card scroll-reveal">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <p>Your voice = instant calm.</p>
+            </div>
+            <div class="flip-back">
+              <p>My favorite sound.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card scroll-reveal">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <p>Your presence = heart attack.</p>
+            </div>
+            <div class="flip-back">
+              <p>The best kind.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. OUR ADVENTURE - Timeline -->
+  <section class="section adventure" id="adventure">
+    <div class="section-inner">
+      <h2 class="section-heading scroll-reveal">Our Adventure</h2>
+      <div class="timeline-wrap">
+        <div class="timeline-track">
+          <div class="timeline-stop scroll-reveal" data-modal="1">
+            <span class="timeline-heart">♥</span>
+            <span class="timeline-label">First Look</span>
+          </div>
+          <div class="timeline-stop scroll-reveal" data-modal="2">
+            <span class="timeline-heart">♥</span>
+            <span class="timeline-label">First Talk</span>
+          </div>
+          <div class="timeline-stop scroll-reveal" data-modal="3">
+            <span class="timeline-heart">♥</span>
+            <span class="timeline-label">First Laugh</span>
+          </div>
+          <div class="timeline-stop scroll-reveal" data-modal="4">
+            <span class="timeline-heart">♥</span>
+            <span class="timeline-label">First Spark</span>
+          </div>
+          <div class="timeline-stop scroll-reveal" data-modal="5">
+            <span class="timeline-heart">♥</span>
+            <span class="timeline-label">Forever</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline modals -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <p class="modal-text" id="modalText"></p>
+    </div>
+  </div>
+
+  <!-- 5. THE CONFESSION -->
+  <section class="section confession fullscreen" id="confession">
+    <div class="confession-bg"></div>
+    <div class="confession-content">
+      <h2 class="confession-line confession-first" id="confessionFirst">You Heal the World.</h2>
+      <h2 class="confession-line confession-second" id="confessionSecond">I Just Want to Hold It For You.</h2>
+    </div>
+    <div class="confession-image">
+      <img src="assets/rupsa-4.png" alt="Rupsa Bhattacharya">
+    </div>
+  </section>
+
+  <!-- Psychological Analysis (fake) -->
+  <section class="section analysis" id="analysis">
+    <div class="section-inner">
+      <h2 class="section-heading scroll-reveal">Psychological Analysis of Me</h2>
+      <div class="analysis-box scroll-reveal">
+        <p class="analysis-label">Diagnosis:</p>
+        <p class="analysis-diagnosis">Hopelessly in love.</p>
+      </div>
+      <button class="btn-therapy magnetic-btn scroll-reveal" id="therapyBtn">Therapy Session With You</button>
+      <p class="therapy-outcome" id="therapyOutcome">Session outcome: I fall harder.</p>
+    </div>
+  </section>
+
+  <!-- 6. FINAL SECTION -->
+  <section class="section finale fullscreen" id="finale">
+    <div class="starry-bg" id="starryBg"></div>
+    <div class="hearts-3d" id="hearts3d"></div>
+    <div class="finale-content">
+      <button class="btn-claim magnetic-btn" id="claimBtn">Click to Claim Your Valentine</button>
+      <div class="finale-reveal" id="finaleReveal">
+        <p class="finale-line">Forever Yours.</p>
+        <p class="finale-line">No Appointments Needed.</p>
+      </div>
+    </div>
+    <canvas id="confettiCanvas"></canvas>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
